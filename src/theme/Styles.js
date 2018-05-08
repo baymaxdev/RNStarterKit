@@ -1,6 +1,5 @@
 import { Platform } from 'react-native';
 
-import Fonts from './Fonts';
 import Metrics from './Metrics';
 import Colors from './Colors';
 
@@ -8,8 +7,9 @@ import Colors from './Colors';
 const Styles = {
   container: {
     flex: 1,
-    backgroundColor: 'white'
-  }
+    backgroundColor: Colors.back,
+    alignItems: 'center'
+  },
 };
 
 export default Styles;

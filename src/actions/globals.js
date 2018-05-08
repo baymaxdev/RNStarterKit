@@ -1,6 +1,5 @@
-import Types from './actionTypes';
-
-export const setNavigator = nav =>
-  ({ type: Types.SET_NAVIGATOR, nav });
-export const setData = data =>
-  ({ type: Types.SET_DATA, data });
+export default Types = {
+  SET_NAVIGATOR: 'SET_NAVIGATOR',
+  SET_DATA: 'SET_DATA',
+  SET_LOADER_VISIBLE: 'SET_LOADER_VISIBLE',
+}

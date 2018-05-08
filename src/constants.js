@@ -1,8 +1,8 @@
-import I18n from 'react-native-i18n';
-
-const constants = {
-  
-};
-
-export default constants;
-
+export const url = 'https://';
+export const package_id = '';
+export const Status = {
+  NONE: 'NONE',
+  REQUEST: 'REQUEST',
+  SUCCESS: 'SUCCESS',
+  FAILURE: 'FAILURE'
+}

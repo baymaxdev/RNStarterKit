@@ -1,6 +1,5 @@
-import { createTypes } from 'reduxsauce';
+import globals from './globals';
 
-export default createTypes(`
-SET_NAVIGATOR
-SET_DATA
-`);
+export default Types = {
+  ... globals,
+}

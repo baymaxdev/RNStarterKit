@@ -2,7 +2,7 @@ import { combineReducers } from 'redux-immutable';
 import globals from './globals';
 
 const applicationReducers = {
-  globals,  
+  globals,
 };
 
 export default function createReducer() {
